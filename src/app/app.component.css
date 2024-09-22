@@ -116,7 +116,7 @@ body{
         margin-top: 1.5rem;
         line-height: 1;
      }
-     .home-image{
+     /* .home-image{
         border-radius: 50%;
      }
      .home-img img{ 
@@ -133,7 +133,7 @@ body{
         box-shadow: 0 0 25px #0096ff,
                     0 0 35px #0096ff,
                     0 0 55px #0096ff; 
-     }
+     } */
      .home-content p{
         font-size: 1.5rem;
         font-weight: 500;
