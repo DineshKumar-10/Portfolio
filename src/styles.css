@@ -104,7 +104,6 @@ body{
         text-align: left;
         margin-top: 3rem;
      }
-
      span{
         color:#0096ff;
      }
@@ -122,10 +121,10 @@ body{
         margin-top: 1.5rem;
         line-height: 1;
      }
-     /* .home-image{
+     .home-image{
         border-radius: 50%;
      }
-     .home-img img{ 
+     .home-image img{ 
         position: relative;
         top: 5rem;
         width: 26vw;
@@ -139,7 +138,7 @@ body{
         box-shadow: 0 0 25px #0096ff,
                     0 0 35px #0096ff,
                     0 0 55px #0096ff; 
-     } */
+     }
      .home-content p{
         font-size: 1.5rem;
         font-weight: 500;
@@ -439,14 +438,18 @@ content:  "Backend Developer";
     font-weight:800;
     line-height: 1;
     padding-bottom: 1.2rem;
+    margin-top: 20px;
+    text-align: center;
  }
- 
- .Skill-info p{
-    font-size:1.2rem;
+
+ .Skill-info h5{
+    font-size:1.8rem;
     font-weight: 600;
-    min-height: 100px;
+    min-height: 10px;
     line-height:1.7;
-    margin:auto;
+    text-align: center;
+    /* margin-left: 40px;
+    margin-top: 10px; */
  }
  
  /* Project Section Design */
@@ -728,3 +731,6 @@ content:  "Backend Developer";
          margin: 2rem 0;
      }
    }
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
