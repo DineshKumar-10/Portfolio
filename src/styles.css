@@ -471,10 +471,16 @@ content:  "Backend Developer";
  
  .Project-box img{
     width: 15rem;
-    border-radius: 50%;
+    border-radius: 10%;
     border: 3px solid #0096ff;
     box-shadow: 0 0 25px #0096ff;
- }
+   }
+   .Project-item img{
+      background-image: url(./img/BlogImg.jpeg);
+      background-repeat: none;
+      background-size: cover;
+      height: 160px;
+}
  .wrapper {
     display: grid;
     grid-template-columns: repeat(3,1fr);
@@ -496,16 +502,25 @@ content:  "Backend Developer";
     gap: 1.5rem;
     color:#fff;
     transition: 0.3s ease-in-out;
- }
- .Project-item:hover{
+   }
+   .Project-item:hover{
     border: 3px solid #0096ff;
     transform: translateY(-10px)scale(1.03);
     box-shadow: 0 0 50px #0096ff ;
  }
+
  
  .Project-item h2{
     font-size: 2.8rem;
- }
+   }
+   .Project-item h2 a{
+   text-decoration: none;
+   color: #fff;
+   transition: 0.3 ease-in-out;
+   }
+   .Project-item h2 a:hover {
+      color: #0096ff;
+   }
  .Project-item p{
     font-size: 1.3rem;
  }
