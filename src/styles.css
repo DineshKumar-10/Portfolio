@@ -134,7 +134,7 @@ body{
         transition: 0.3s ease-in-out;
         background-position: 1px 100px;
      }
-     .home-img img:hover{
+     .home-image img:hover{
         box-shadow: 0 0 25px #0096ff,
                     0 0 35px #0096ff,
                     0 0 55px #0096ff; 
@@ -467,26 +467,31 @@ content:  "Backend Developer";
  }
  .Project .heading {
     margin-bottom: 5rem;
- }
- 
- .Project-box img{
+   }
+   
+   .Project-box img{
     width: 15rem;
     border-radius: 10%;
     border: 3px solid #0096ff;
     box-shadow: 0 0 25px #0096ff;
+    transition: 0.3 ease-in-out;
    }
-   .Project-item img{
-      background-image: url(./img/BlogImg.jpeg);
-      background-repeat: none;
-      background-size: cover;
-      height: 160px;
-}
- .wrapper {
-    display: grid;
-    grid-template-columns: repeat(3,1fr);
-    gap: 3rem;
- }
- .Project-item {
+   
+   .Project-box a ,h2{
+      text-decoration: none;
+      color: #fff;
+      margin-top: -30px;
+   }
+   .Project-box a,img, h2:hover{
+      color: #0096ff;
+   }
+   
+   .wrapper {
+      display: grid;
+      grid-template-columns: repeat(3,1fr);
+      gap: 3rem;
+   }
+   .Project-item {
     min-height: 430px;
     max-width: 450px;
     background: #080808;
@@ -512,15 +517,9 @@ content:  "Backend Developer";
  
  .Project-item h2{
     font-size: 2.8rem;
+    margin-top: 5px;
    }
-   .Project-item h2 a{
-   text-decoration: none;
-   color: #fff;
-   transition: 0.3 ease-in-out;
-   }
-   .Project-item h2 a:hover {
-      color: #0096ff;
-   }
+
  .Project-item p{
     font-size: 1.3rem;
  }
