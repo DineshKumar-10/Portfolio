@@ -728,7 +728,7 @@ content:  "Backend Developer";
          max-width: 600px;
          margin: 0 auto;
      }
-     .home-img img {
+     .home-image img {
          width: 56vw;
      }
  
@@ -747,6 +747,7 @@ content:  "Backend Developer";
          font-size: 5rem;
          margin-top:  1rem;
      }
+   
  
      .heading {
          font-size: 4rem;
