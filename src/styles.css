@@ -458,7 +458,7 @@ content:  "Backend Developer";
 
  /* Badge Section Design */
  
- /* .Badge {
+ .Badge {
     background: #131313 ;
  }
  
@@ -470,7 +470,7 @@ content:  "Backend Developer";
     flex-direction: column;
  }
  .Badge .heading {
-    margin-bottom: 5rem;
+    margin-bottom: 3rem;
    }
    
    .Badge-box img{
@@ -496,7 +496,7 @@ content:  "Backend Developer";
       gap: 3rem;
    }
    .Badge-item {
-    min-height: 430px;
+    min-height: 260px;
     max-width: 450px;
     background: #080808;
     border: 3px solid rgba(238,238,238,0.3);
@@ -527,15 +527,21 @@ content:  "Backend Developer";
  .Badge-item p{
     font-size: 1.3rem;
  }
+ .Badge-item h2 {
+  text-align: center;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  white-space: normal;
+}
  #star {
     color:gold;
     font-size: 2rem;
- } */
+ }
  
  /* Project Section Design */
  
  .Project {
-    background: #131313 ;
+    background: #080808 ;
  }
  
  .Project-box {
@@ -611,7 +617,7 @@ content:  "Backend Developer";
  /* contact Section Design */
  
  .contact {
-    background-color: #080808;
+    background-color: #131313;
  }
  .contact  h2 {
     margin-bottom: 3rem;
@@ -665,18 +671,22 @@ content:  "Backend Developer";
     color: #0096ff;
  }
  .footer .social a {
-    font-size: 25px;
-    color:#0096ff;
-    border: 2px solid #0096ff;
-    width: 42px;
-    height: 42px;
-    line-height: 42px;
-    display: inline-block;
-    text-align: center;
-    border-radius: 50px;
-    margin:0 10px;
-    transition: 0.3s ease-in-out;
- }
+  width: 42px;
+  height: 42px;
+  border: 2px solid #0096ff;
+  border-radius: 50%;
+  color: #0096ff;
+
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+
+  font-size: 22px;
+  margin: 0 10px;
+  transition: 0.3s ease-in-out;
+}
+
+
  .footer .globe {
    font-size: 20px;
    margin-bottom: 50px;
@@ -696,6 +706,8 @@ content:  "Backend Developer";
     font-size: 16px;
     color: #fff;
  }
+ 
+
  
  /* Scrollbar Design */
  
